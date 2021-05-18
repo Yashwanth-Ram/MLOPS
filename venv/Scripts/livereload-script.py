@@ -1,10 +1,10 @@
 #!c:\users\yashw\mlops\mlops_main\venv\scripts\python.exe
-# EASY-INSTALL-ENTRY-SCRIPT: 'ftfy==5.9','console_scripts','ftfy'
+# EASY-INSTALL-ENTRY-SCRIPT: 'livereload==2.6.3','console_scripts','livereload'
 import re
 import sys
 
 # for compatibility with easy_install; see #2198
-__requires__ = 'ftfy==5.9'
+__requires__ = 'livereload==2.6.3'
 
 try:
     from importlib.metadata import distribution
@@ -30,4 +30,4 @@ globals().setdefault('load_entry_point', importlib_load_entry_point)
 
 if __name__ == '__main__':
     sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
-    sys.exit(load_entry_point('ftfy==5.9', 'console_scripts', 'ftfy')())
+    sys.exit(load_entry_point('livereload==2.6.3', 'console_scripts', 'livereload')())
